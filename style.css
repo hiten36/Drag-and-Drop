@@ -1,0 +1,27 @@
+.main
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    justify-content: center;
+}
+.box{
+    border: 2px solid black;
+    height: 25vh;
+    width: 15vw;
+    margin: 0px 20px;
+}
+.img{
+    background: url('img1.png') no-repeat center center/cover;
+    height: 25vh;
+    width: 15vw;
+}
+.hold{
+    border: 3px solid rgb(0, 255, 255);
+}
+.hide{
+    display: none;
+}
+.dash{
+    border: 2px dashed rgb(0, 148, 0);
+}
